@@ -1,0 +1,144 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>aMAZEing 3D</title>
+</head>
+
+<body>
+
+<h1 align="center"><u><b><font face="AdLib BT"><a name="aMAZEing 3D">aMAZEing 3D</a></font></b></u></h1>
+<p align="center"><u><b><font face="AdLib BT">By Simon Price</font></b></u></p>
+<p align="left"><u><b>Table of Contents</b></u></p>
+<ul>
+  <li><a href="#About aMAZEing 3D">About aMAZEing 3D</a></li>
+  <li><a href="#About the author">About the author</a></li>
+  <li><a href="#PC requirements">PC requirements</a></li>
+  <li><a href="#Options">Options</a></li>
+  <li><a href="#How to Play">How to Play</a></li>
+  <li><a href="#Screen Captures">Screen Captures</a></li>
+  <li><a href="#Creating your own levels">Creating your own levels</a></li>
+  <li><a href="#Troubleshooting">Troubleshooting</a></li>
+  <li><a href="#Boring copy write stuff">Boring copy write stuff</a></li>
+  <li><a href="#Feedback">Feedback</a></li>
+  <li>Disclaimer</li>
+</ul>
+<p><u><b><a name="About aMAZEing 3D">About aMAZEing 3D</a></b></u></p>
+<p>aMAZEing 3D is a 3D maze game written in Visual Basic. It uses no DLL's or
+controls written in faster languages such as C++ or assembler. Yep, this is a 3D
+game in pure VB code. It doesn't even use DirectX yet! Just a bit of maths, a
+few textures and a few pictureboxes - that's all there is to it! As far as I
+know, this is the ONLY 3D game made in VB code that has perspective textures
+available on the net. If you do see a similar game, I'd be interested to see it.
+Please inform me at <a href="mailto:webmaster@VBgames.co.uk">webmaster@VBgames.co.uk</a>
+if you know any cool 3D VB games. If you have any good VB games please also send
+them to <a href="mailto:submitgames@VBgames.co.uk">submitgames@VBgames.co.uk</a>
+and I will put it on my website ( <a href="http://www.VBgames.co.uk">www.VBgames.co.uk</a>
+) for others to learn from. </p>
+<p>If you have never visited my website before, please do because it has a
+collection of quality VB games (some written by me) available for download with
+source code. There are also a few tutorials, including one covering how I made
+this game.</p>
+<p>The objective in the game is to find your way through the maze. If you walk
+up to and touch the wall with a large 'X' on it you have won.</p>
+<p>However, I am trying to make this game into a shoot-em-up, just like the
+classic Doom. This game would be really amazing if I chucked in a few baddies,
+guns and ammo.</p>
+<p><b><u><a name="About the author">About the author</a></u></b></p>
+<p>Well, my name is Simon Price and I have been learning Visual Basic for about
+5 months now. I am 16 and I am only really interested in making games and
+graphical programs. I find if difficult / boring to make stuff like databases or
+word processors. I have a website with both my games and other peoples at <a href="http://www.VBgames.co.uk">www.VBgames.co.uk</a>
+. You can email me at <a href="mailto:SimonPrice@VBgames.co.uk">SimonPrice@VBgames.co.uk</a>
+.</p>
+<p><u><b><a name="PC requirements">PC requirements</a></b></u></p>
+<p>You people are the guinea pigs I'm afraid. I don't know how this game will
+perform on other computers. What I do know is this : you do not need DirectX,
+you do need the VB run time files. Your monitor must support 16 bit colours
+(most do). My PC is 430Mhz and the game performs well on
+my PC. If you have a fast PC then the larger levels will look stunning with no
+slow-down. If you have a slow PC then you might find the game runs a little too
+slow. Feel free to give feedback on this subject, because I need to know before
+I finish the game how it will perform on other PC's.</p>
+<p><b><u><a name="Options">Options</a></u></b></p>
+<p>At the moment, collision detection in the game is quite unreliable, you often
+get stuck on walls - so this option by default is left off. I recommend you keep
+it that way, but I do not recommend that you try walking through the walls. If
+you walk out of the level the game may stop working.</p>
+<p>There are ten levels to choose from. 1 is the easiest and the smallest. It
+also runs the fastest. 10 is the biggest and most difficult, and also runs the
+slowest.</p>
+<p>There are two styles of graphics to choose from - realistic or surreal. One
+will make the walls from realistic textures such as stone, brick, rock, leather
+and sandstone etc. The other option will load up walls where the textures are
+bright, colourful patterns. Choose depending on your own tastes, but I think the
+realistic textures look best.</p>
+<p><u><b><a name="How to Play">How to Play</a></b></u></p>
+<p>Use the arrow keys to walk around. Explore the 3D maze, and try to find the
+wall marked with an 'X'. When you see it, go up to it and touch it, and you
+should get a message telling you that the level is complete. If you want to exit
+the game early, or you simply give up, press the Escape key to exit. That's
+about all there is to it.</p>
+<p><u><b><a name="Screen Captures">Screen Captures</a></b></u></p>
+<p>&nbsp;You can press 'C' to capture the screen, and it will be saved in this
+folder as 'Pic'. Alternatively, press 'Print Screen' and it will be copied to
+the clipboard. Exit, open up your favourite graphics program and paste it where
+you want.</p>
+<p><u><b><a name="Creating your own levels">Creating your own levels</a></b></u></p>
+<p>Yes, you can create your own levels with and ordinary paint program! Create a
+new bitmap - it must be square, with sides of length 10 - 100 pixels (try a
+small maze at first) and fill it in black. Then make a border wall with one of
+the following colors:</p>
+<p>White, vbCyan, vbMagenta, vbYellow, vbBlue, QBcolor(6), QBcolor(7)</p>
+<p>Make sure the wall surrounds the entire level, otherwise the game will freeze
+when it tries to draw an infinity on empty space where the leak is. Now draw in
+more walls using the colors listed above. Each color represents a different wall
+texture. Then, to finish off get the color vbGreen and paint one pixel green.
+This will be where the player will start the level. Then make one pixel vbRed -
+this will be where the wall with an 'X' will appear - so you shouldn't put in
+right in front of the start position! Save your picture in the 'Levels' folder
+and overwrite one of my levels, by naming it a number between 1 and 10. You must
+save it as a bitmap ans leave the correct '.bmp' file extension. The load up the
+game and select your own level! Cool huh? All the 3D, lighted, textured wizardry
+was created from that tiny bitmap! </p>
+<p><b><u><a name="Troubleshooting">Troubleshooting</a></u></b></p>
+<p>The major bug in this early version of the game is that it does not always
+put your screen resolution back to normal. If you have to manually adjust your
+monitor, you can do this my right clicking on the desktop, select 'Properties'
+and then go to the 'Settings' tab where you will be able to change the screen
+resolution / colours manually.
+</p>
+<p>The collision detection is also very dodgy at the moment. If you find any
+more bugs, please email me at <a href="mailto:gamefeedback@VBgames.co.uk">gamefeedback@VBgames.co.uk</a>
+</p>
+<p><b><u><a name="Boring copy write stuff">Boring copy write stuff</a></u></b></p>
+<p>All source code here belongs to Simon Price. Do not copy it, claim it to be
+yours, put it on a website without permission, or anything else that'd be
+conning me. I've spent a long time making this game and getting it up on mine
+and other websites. You should respect the fact that I have given this source
+code out for free by giving me a fair mention in any games you make based on my
+source code, and sending them to me at <a href="mailto:submitgames@VBgame.co.uk">submitgames@VBgame.co.uk</a>
+so that it can be put on my website. OK?</p>
+<p><u><b>Disclaimer</b></u></p>
+<p>This software has to been given to you for free. I will accept no responsibility
+for any damages / loss of files / any sort of muff-up that happens to your
+computer as a direct / indirect / whatever you like use of this software. So, if
+your computer crashes and your monitor explodes, tough.</p>
+<p><u><b><a name="Feedback">Feedback</a></b></u></p>
+<p>Send any bug reports, questions, answers(!), maybe even some praise to <a href="mailto:gamefeedback@VBgames.co.uk">gamefeedback@VBgames.co.uk</a>
+. Please visit my website : <a href="http://www.VBgames.co.uk">www.VBgames.co.uk</a>
+to see more cool VB games. Please send your VB games to me at <a href="mailto:submitgames@VBgames.co.uk">submitgames@VBgames.co.uk</a>
+to be considered for submission to my collection of quality downloads.</p>
+<p>Simon Price, 28/5/00</p>
+<p>Creator of <a href="http://www.VBgames.co.uk">www.VBgames.co.uk</a> </p>
+<p>Email : <a href="mailto:SimonPrice@VBgames.co.uk">SimonPrice@VBgames.co.uk</a>
+</p>
+<p>VB games programmer since Dec '99</p>
+<p align="center"><a href="#aMAZEing 3D">Back To Top</a></p>
+
+</body>
+
+</html>
